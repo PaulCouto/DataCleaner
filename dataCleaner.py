@@ -5,7 +5,7 @@ import re
 import numpy as np
 
 # Read in the data
-data = pd.read_csv("/Users/couto/Desktop/DataCleaner/Resultados-MPSG-Open-Data-oct10-feb20.csv")
+data = pd.read_csv("Resultados-MPSG-Open-Data-oct10-feb20.csv")
 # Drop the rows with missing values
 data = data.dropna()
 
